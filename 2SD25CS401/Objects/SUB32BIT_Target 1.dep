@@ -1,0 +1,2 @@
+Dependencies for Project 'SUB32BIT', Target 'Target 1': (DO NOT MODIFY !)
+F (.\SUB32BIT.asm)(0x699561D5)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 520"--list .\listings\sub32bit.lst --xref -o .\objects\sub32bit.o --depend .\objects\sub32bit.d)

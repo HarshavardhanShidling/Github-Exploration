@@ -1,0 +1,2 @@
+Dependencies for Project 'add64bit', Target 'Target 1': (DO NOT MODIFY !)
+F (.\add64bit.s)(0x699E8FE1)(--cpu ARM7TDMI --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520"--list .\listings\add64bit.lst --xref -o .\objects\add64bit.o --depend .\objects\add64bit.d)
