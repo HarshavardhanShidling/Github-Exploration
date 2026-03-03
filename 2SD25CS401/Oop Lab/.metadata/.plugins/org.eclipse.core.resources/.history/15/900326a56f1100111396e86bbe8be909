@@ -1,0 +1,17 @@
+
+public class stringHandlingDemo {
+
+	public static void main(String[] args) {
+		 String str1 = "Hello";
+		 String str2 = "World";
+		 String str3 = " Java Programming ";
+		 
+		 //1. length()
+		 System.out.println("Length of str1:"+str1.length());
+		 
+		 //2. concat()
+		 
+		 System.out.println("")
+	}
+
+}

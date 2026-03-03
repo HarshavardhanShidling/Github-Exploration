@@ -1,0 +1,46 @@
+
+public class stringHandlingDemo {
+
+	public static void main(String[] args) {
+		 String str1 = "Hello";
+		 String str2 = "World";
+		 String str3 = " Java Programming ";
+		 
+		 //1. length()
+		 System.out.println("Length of str1:"+str1.length());
+		 
+		 //2. concat()
+		 String concatStr = str1.concat(" ").concat(str2);
+		 System.out.println("Concated string:"+concatStr);
+		 
+		 //3. equal()
+		 System.out.println("str1 equal str2?"+str1.equals(str2));
+		 
+		 //4. equalsIgnoreCase()
+		 System.out.println("str1 equalsIgnoreCase 'hello'?"+str1.equalsIgnoreCase(str2));
+		 
+		 //5. toUpperCase() & toLowerCase()
+		 System.out.println("UpperCase:"+str1.toUpperCase());
+		 System.out.println("LowerCase:"+str2.toLowerCase());
+		 
+		 //6. charAt()
+		 System.out.println("Character at index i in str1:"+str1.charAt(1));
+		 
+		 //7. substring(0 substring(1) substring(2,5)
+		 System.out.println("Substring of str2(1to4):"+str2.substring(1,4));
+		 
+		 //8. trim()
+		 System.out.println("Trimmed str3:"+str3.trim()+"");
+		 
+		 //9. replace()
+		 System.out.println("Replace 'I' with 'x' in str1:"+str1.replace('I','x'));
+		 
+		 //10 contains()
+		 System.out.println("Does str3 contain 'Java'?"+str3.contains("java"));
+		 
+		 //11.indexof()lastindexof()
+		 System.out.println("Index of 'o' in str1:"+str1.indexOf(0))
+		 
+	}
+
+}

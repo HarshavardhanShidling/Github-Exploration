@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class stringUse {
+
+	public static void main(String[] args) {
+		String s1 = "Hello";
+		String s2 = new String("Hello");
+		char[] ch = {'J','a','v','a'};
+		String s3 = new String(ch);
+		byte[] b = {87,111,114,108,100};
+		String s4 = new String(b);
+		String s5;
+		s5 = "Programming";
+		
+		Scanner sc = new Scanner(System.in);
+		String s6 = new String(sc.nextLine());
+		
+		System.out.println("s1:"+s1+"\ns2:"+s2+"\ns3:"+s3+"\ns4:"+s4+"\ns5:"+s5+"\ns6:"+s6);
+	}
+
+}
